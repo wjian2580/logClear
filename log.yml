@@ -1,0 +1,20 @@
+#日志目录，可以配置多个
+log_path:
+    - /neworiental/web/tomcat-ares/logs
+    - /neworiental/web/logs/ares
+#保留日志天数
+keep: 3
+#忽略的日志文件
+excluede_files:
+    - example
+email:
+    from_addr: example@xx.com
+    to_addr: 
+        - zhangsan@xx.com
+        - lisi@xx.com
+    smtp_server: smtp.xx.com
+    port: 25
+    password: password
+catalina_home: /neworiental/web/tomcat-ares
+compress: false
+compress_path: ~/
